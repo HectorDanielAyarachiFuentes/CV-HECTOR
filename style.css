@@ -1,0 +1,45 @@
+    body {
+      margin: 15px 25px;
+    }
+
+    .header {
+      text-align: center;
+    }
+
+    .contact-info {
+      text-align: right;
+    }
+
+    .profile-image {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .profile-image img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 2px solid #3182ce;
+      border-radius: 50%;
+    }
+
+    .skills-list {
+      list-style-type: disc;
+      margin-left: 1rem;
+    }
+
+    .experience {
+      margin-top: 2rem;
+    }
+
+    .experience h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .experience p {
+      color: #718096;
+      margin-bottom: 1rem;
+    }
