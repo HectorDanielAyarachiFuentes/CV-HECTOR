@@ -5,60 +5,108 @@
   <!-- Metadatos y Referencias -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <title>Hector Ayarachi</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
   <link rel="stylesheet" href="style.css">
+  <title>Hector Ayarachi - Tec. Recursos Humanos</title>
+  <style>
+    body {
+      margin: 15px 25px;
+    }
+
+    .header {
+      text-align: center;
+    }
+
+    .contact-info {
+      text-align: right;
+    }
+
+    .profile-image {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .profile-image img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 2px solid #3182ce;
+      border-radius: 50%;
+    }
+
+    .skills-list {
+      list-style-type: disc;
+      margin-left: 1rem;
+    }
+
+    .experience {
+      margin-top: 2rem;
+    }
+
+    .experience h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .experience p {
+      color: #718096;
+      margin-bottom: 1rem;
+    }
+  </style>
 </head>
 
 <body>
   <!-- Sección del Encabezado -->
-  <div class="bg-white dark:bg-gray-800 shadow-lg rounded-lg px-10 pt-8 pb-12 animate-fade-in">
-    <div class="grid md:grid-cols-2 gap-8 items-center">
-      <div>
-        <h1 class="text-3xl font-bold animate-wiggle" style="text-align: center;">Hector Daniel Ayarachi Fuentes</h1>
-        <h1 class="text-1xl  animate-wiggle" style="text-align: center;">Tec. Recursos Humanos</h1>
+  <div class="header">
+    <h1 class="text-3xl font-bold animate-wiggle">Hector Daniel Ayarachi Fuentes</h1>
+    <p class="text-lg animate-wiggle">Tec. Recursos Humanos</p>
+  </div>
 
-      </div>
-      <div class="md:text-right">
-        <div class="text-blue-600 animate-pulse">juanperez@email.com</div>
-        <div class="text-gray-600">+52 1 55 7890 1230</div>
-      </div>
+  <!-- Información de Contacto -->
+  <div class="contact-info">
+    <div class="text-blue-600 animate-pulse">juanperez@email.com</div>
+    <div class="text-gray-600">+52 1 55 7890 1230</div>
+  </div>
+
+  <!-- Sección de la Imagen -->
+  <div class="profile-image">
+    <img src="hector.jpeg" alt="Hector's Profile" class="rounded-full">
+  </div>
+
+  <!-- Sección de Perfil y Habilidades -->
+  <div class="grid md:grid-cols-2 gap-8 mt-4">
+    <div>
+      <h2 class="text-2xl font-bold mb-4 animate-wiggle">Perfil Profesional</h2>
+      <p>Técnico en Recursos Humanos, recién egresado, con conocimientos en reclutamiento, capacitación, evaluación del desempeño, relaciones laborales y compensaciones, listo para aplicar y expandir mis habilidades en el campo laboral.</p>
+
+
+
     </div>
-
-    <!-- Sección de la Imagen -->
-    <div class="flex gap-4 items-center mt-4">
-      <img src="hector.jpeg" class="w-32 h-32 rounded-full border-2 border-blue-500" style="object-fit: cover;">
-      <hr class="my-6 border-gray-300 flex-1">
+    <div>
+      <h2 class="text-2xl font-bold mb-4 animate-pulse">Habilidades</h2>
+      <ul class="skills-list">
+        <li>Reclutamiento y selección</li>
+        <li>Capacitación y desarrollo</li>
+        <li>Legislación laboral</li>
+        <li>Evaluación del desempeño</li>
+        <li>Gestión del talento</li>
+        <li>Administración de personal</li>
+      </ul>
     </div>
+  </div>
 
-    <!-- Sección de Perfil y Habilidades -->
-    <div class="grid md:grid-cols-2 gap-8">
-      <div>
-        <h2 class="text-2xl font-bold mb-4 animate-wiggle">Perfil</h2>
-        <p>Licenciado en Recursos Humanos con más de 5 años de experiencia en reclutamiento, capacitación, evaluación del desempeño, relaciones laborales y compensaciones.</p>
-      </div>
-      <div>
-        <h2 class="text-2xl font-bold mb-4 animate-pulse">Habilidades</h2>
-        <ul class="list-disc ml-4">
-          <li>Reclutamiento y selección</li>
-          <li>Capacitación y desarrollo</li>
-          <li>Legislación laboral</li>
-          <li>Evaluación del desempeño</li>
-          <li>Gestión del talento</li>
-          <li>Administración de personal</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Sección de Experiencia Laboral -->
+  <!-- Sección de Experiencia Laboral -->
+  <div class="experience">
     <h2 class="text-2xl font-bold my-8 animate-fade-in">Experiencia Laboral</h2>
     <div>
-      <h3 class="text-xl font-bold mb-2">Especialista en Recursos Humanos - ABC Company</h3>
+      <h3>Especialista en Recursos Humanos - ABC Company</h3>
       <p class="text-gray-600">Fecha de inicio - Fecha de finalización</p>
       <p>Responsable de liderar iniciativas de reclutamiento, desarrollar programas de capacitación y gestionar relaciones laborales.</p>
     </div>
     <div>
-      <h3 class="text-xl font-bold mb-2">Coordinador de Recursos Humanos - XYZ Corporation</h3>
+      <h3>Coordinador de Recursos Humanos - XYZ Corporation</h3>
       <p class="text-gray-600">Fecha de inicio - Fecha de finalización</p>
       <p>Encargado de coordinar actividades de recursos humanos, implementar políticas de personal y administrar procesos de evaluación del desempeño.</p>
     </div>
