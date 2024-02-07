@@ -1,38 +1,67 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Juan Pérez</title>
-  
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <title>Tu Página con Tailwind</title>
 </head>
+
 <body>
+
+
+
+
+  <div class="bg-white dark:bg-gray-800 shadow-lg rounded-lg px-10 pt-8 pb-12 animate-fade-in">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-3xl font-bold animate-wiggle">Juan Pérez</h1>
+        <div class="text-gray-600">Lic. en Recursos Humanos</div>
+      </div>
+      <div class="md:text-right">
+        <div class="text-blue-600 animate-pulse">juanperez@email.com</div>
+        <div class="text-gray-600">+52 1 55 7890 1230</div>
+      </div>
+    </div>
+    <div class="flex gap-4 items-center mt-4">
+      <img src="https://randomuser.me/api/portraits/men/36.jpg" class="w-20 h-20 rounded-full border-2 border-blue-500">
+      <hr class="my-6 border-gray-300 flex-1">
+    </div>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-2xl font-bold mb-4 animate-wiggle">Perfil</h2>
+        <p>Licenciado en Recursos Humanos con más de 5 años de experiencia en reclutamiento, capacitación, evaluación del desempeño, relaciones laborales y compensaciones.</p>
+      </div>
+      <div>
+        <h2 class="text-2xl font-bold mb-4 animate-pulse">Habilidades</h2>
+        <ul class="list-disc ml-4">
+          <li>Reclutamiento y selección</li>
+          <li>Capacitación y desarrollo</li>
+          <li>Legislación laboral</li>
+          <li>Evaluación del desempeño</li>
+          <li>Gestión del talento</li>
+          <li>Administración de personal</li>
+          <!-- Agrega más habilidades según sea necesario -->
+        </ul>
+      </div>
+    </div>
+    <h2 class="text-2xl font-bold my-8 animate-fade-in">Experiencia Laboral</h2>
+    <div>
+      <h3 class="text-xl font-bold mb-2">Especialista en Recursos Humanos - ABC Company</h3>
+      <p class="text-gray-600">Fecha de inicio - Fecha de finalización</p>
+      <p>Responsable de liderar iniciativas de reclutamiento, desarrollar programas de capacitación y gestionar relaciones laborales.</p>
+    </div>
+    <div>
+      <h3 class="text-xl font-bold mb-2">Coordinador de Recursos Humanos - XYZ Corporation</h3>
+      <p class="text-gray-600">Fecha de inicio - Fecha de finalización</p>
+      <p>Encargado de coordinar actividades de recursos humanos, implementar políticas de personal y administrar procesos de evaluación del desempeño.</p>
+    </div>
+    <!-- Puedes agregar más secciones de experiencia laboral según sea necesario -->
+  </div>
   
 
-<div class="box-content w-400 p-4 border-4 m-4 flex items-center justify-center" style="height: 700px;">
-  <!-- ... -->
-</div>
 
-
-<div class="bg-white dark:bg-gray-800 shadow-lg rounded-lg px-10 pt-8 pb-12 animate-fade-in"> <div class="grid md:grid-cols-2 gap-8 items-center"> <div> <h1 class="text-3xl font-bold animate-wiggle">Juan Pérez</h1> <div class="text-gray-600">Lic. en Recursos Humanos</div> </div> <div class="md:text-right"> <div class="text-blue-600 animate-pulse">juanperez@email.com</div> <div class="text-gray-600">+52 1 55 7890 1230</div> </div> </div> <div class="flex gap-4 items-center mt-4"> <img src="https://randomuser.me/api/portraits/men/36.jpg" class="w-20 h-20 rounded-full border-2 border-blue-500"> <hr class="my-6 border-gray-300 flex-1"> </div> <div class="grid md:grid-cols-2 gap-8"> <div> <h2 class="text-2xl font-bold mb-4 animate-wiggle">Perfil</h2> Licenciado en Recursos Humanos con más de 5 años de experiencia en reclutamiento, capacitación, evaluación del desempeño, relaciones laborales y compensaciones. </div> <div> <h2 class="text-2xl font-bold mb-4 animate-pulse">Habilidades</h2> <ul class="list-disc ml-4"> <li>Reclutamiento y selección</li> <li>Capacitación y desarrollo</li> <li>Legislación laboral</li> <li>Evaluación del desempeño</li> </ul> </div> </div> <h2 class="text-2xl font-bold my-8 animate-fade-in">Experiencia</h2> <!-- Experiencia laboral --> </div>
-
-<div class="bg-white dark:bg-gray-800 shadow-lg rounded-lg px-10 pt-8 pb-12"> <!-- Same header and profile section --> <h2 class="text-2xl font-bold my-8">Experiencia</h2> <div> <div class="text-lg font-medium mb-2 flex justify-between items-center"> <div>Especialista en Recursos Humanos - XYZ S.A.</div> <div class="text-gray-500 text-sm">Ene 2021 - Presente</div> </div> <ul class="list-disc ml-4 mb-4"> <li>Reclutamiento y selección de personal</li> <li>Evaluaciones de desempeño</li> <li>Análisis de clima laboral</li> </ul> </div> <div> <!-- Other job experiences --> </div> <div class="mt-12 pt-12 border-t border-gray-300"> <div class="text-center text-gray-500 text-sm"> ©2023 Juan Pérez. Todos los derechos reservados. </div> </div> </div>
-  
-  
-  <div class="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-10"> <!-- Mismas secciones de encabezado y perfil --> <h2 class="text-2xl font-bold mb-4">Educación</h2> <ul> <li> <div class="font-medium">Lic. en Recursos Humanos</div> <div class="text-gray-500 text-sm">Universidad de XYZ (2018-2020)</div> </li> <li> <div class="font-medium">Técnico en Gestión de RRHH</div> <div class="text-gray-500 text-sm">Instituto Técnico ABC (2016-2018)</div> </li> </ul> <h2 class="text-2xl font-bold mb-4">Experiencia</h2> <!-- Sección de experiencia laboral --> <h2 class="text-2xl font-bold mb-4">Cursos y Certificaciones</h2> <ul> <li>Programa de Desarrollo de Líderes - Centro EMPower</li> <li>Curso de Legislación Laboral - Udemy</li> <li>Certificación en Reclutamiento - Universidad TecVirtual</li> </ul> <h2 class="text-2xl font-bold mb-4">Idiomas</h2> <ul> <li>Español - Nativo</li> <li>Inglés - Intermedio B2</li> </ul> <!-- Footer --> </div>
 </body>
-</html>
-<!-- partial -->
-  
-</body>
+
 </html>
